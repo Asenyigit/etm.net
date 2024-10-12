@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETM GROUP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: #caccce; /* Footer arka plan rengi */
+    color: white; /* Yazı rengi */
+    padding: 20px 10px;
+    text-align: center; /* Ortaya hizalama */
+}
+
+.footer-content {
+    max-width: 800px; /* Maksimum genişlik */
+    margin: 0 auto; /* Ortalamak için */
+}
+
+.footer p {
+    margin-bottom: 10px; /* Paragraf altı boşluk */
+    font-size: 1rem; /* Yazı boyutu */
+}
+
+.footer-links {
+    list-style-type: none; /* Liste stilini kaldırma */
+    padding: 0; /* Padding kaldırma */
+}
+
+.footer-links li {
+    display: inline; /* Yatayda sıralama */
+    margin: 0 10px; /* Sağ ve sol boşluk */
+}
+
+.footer-links a {
+    color: white; /* Bağlantı rengi */
+    text-decoration: none; /* Altı çizili kaldırma */
+    transition: color 0.3s; /* Renk geçişi */
+}
+
+.footer-links a:hover {
+    color: #f0f0f0; /* Hover rengi */
+}
+
+/* Mobil uyumlu düzen */
+@media (max-width: 768px) {
+    .footer p {
+        font-size: 0.9rem; /* Mobilde daha küçük yazı boyutu */
+    }
+
+    .footer-links li {
+        display: block; /* Mobilde dikeyde sıralama */
+        margin: 5px 0; /* Üst ve alt boşluk */
+    }
+}
+
+
+
+
+
+
+
+img{
+    max-width: 100%
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Sayfanın tam yüksekliği */
+    background: rgb(198, 198, 198); /* Mavi tonları geçişi */
+    text-align: center;
+    background-image  : url("img/yusuf.jpg");
+    background-repeat: no-repeat;
+}
+
+.welcome-section {
+    background-color: #555; /* Beyaz arka plan, şeffaflık ile */
+    color: white;
+    padding: 40px 20px;
+    border-radius: 15px; /* Daha yuvarlak köşeler */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3); /* Daha belirgin gölge */
+    width: 90%; /* Mobil uyum için genişlik */
+    max-width: 600px; /* Maksimum genişlik */
+    transition: transform 0.3s ease; /* Hover animasyonu */
+}
+
+.welcome-section:hover {
+    transform: translateY(-5px); /* Hover etkisi */
+}
+
+.welcome-section h1 {
+    font-size: 2.5rem; /* Başlık boyutu */
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: black; /* Başlık rengi */
+}
+
+.welcome-section p {
+    font-size: 1.2rem; /* Açıklama yazısı boyutu */
+    line-height: 1.5;
+    color: white; /* Açıklama rengi */
+}
+
+/* Mobil uyumlu düzen */
+@media (max-width: 768px) {
+    .welcome-section {
+        padding: 30px 15px;
+    }
+
+    .welcome-section h1 {
+        font-size: 2rem; /* Mobilde daha küçük başlık boyutu */
+    }
+
+    .welcome-section p {
+        font-size: 1rem; /* Mobilde daha küçük açıklama yazısı boyutu */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.map-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.map-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Mobil uyumlu düzen */
+@media (max-width: 768px) {
+    .map-container {
+        height: 300px;
+    }
+
+    .map-section h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #a6a6a6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+    margin-right: 10px;
+}
+
+.company-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+section {
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+
+
+/* WhatsApp İkonu Stili */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px; /* Alt boşluk */
+    right: 20px; /* Sağ boşluk */
+    width: 60px; /* İkonun genişliği */
+    height: 60px; /* İkonun yüksekliği */
+    z-index: 1000; /* Diğer içeriklerin üzerinde görünmesi için */
+}
+
+.whatsapp-icon img {
+    width: 100%; /* İkonun %100 genişlikte olmasını sağlar */
+    height: auto; /* Yüksekliği otomatik ayarlar */
+    border-radius: 50%; /* Yuvarlak görünüm için */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Gölgelendirme efekti */
+    transition: transform 0.3s; /* Hover efekti için geçiş */
+}
+
+.whatsapp-icon:hover img {
+    transform: scale(1.1); /* Üzerine gelince büyütme efekti */
+}
+
+
+
+
+
+
+
+/* Mobil uyumlu tasarım */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .company-name {
+        font-size: 20px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    .logo img {
+        height: 40px;
+    }
+}
+
+
+</style>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/ettlogo.jpg" alt="Logo" />
+            <span class="company-name">ETM GROUP</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="hakkimizda.html">About Us</a></li>
+                <li><a href="katalog.html">Catalog</a></li>
+                <li><a href="iletisim.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="containerr">
+        <div class="welcome-section">
+            <h1>"THE ADDRESS OF TRUST IN GLOBAL TRADE"</h1>
+            <p style="font-size: 25px;" >By working with us, you can reach the best suppliers worldwide and carry out your commercial operations smoothly and quickly. ETM GROUP is your strength and partner in global trade.
+            </p>
+        </div>
+    </div>
+
+
+    <!-- WhatsApp İkonu -->
+<a href="https://wa.me/905524579551" target="_blank" class="whatsapp-icon">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+</a>
+
+
+
+
+
+
+
+
+
+
+
+    <section class="map-section">
+        <h2>Contact Us</h2>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.143792018585!2d28.850999075899136!3d41.022109971348605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa4d17cbc8d7d%3A0xd594bc15207fe075!2zWcSxbGTEsXp0ZXBlLCA1NjMuIFNrLiwgMzQxMDAgQmHEn2PEsWxhci_EsHN0YW5idWw!5e0!3m2!1str!2str!4v1727872066783!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 ETM Group. Tüm Hakları Saklıdır.</p>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+        /* Genel stil */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            background-image: url("img/yusuf.jpg");
+        }
+        /* Başlık stili */
+        .header {
+           background-color: #afb4af;
+            padding: 60px 20px;
+            text-align: center;
+            color: white;
+            border-radius: 0 0 50px 50px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+        .header h1 {
+            font-size: 36px;
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+        .contact-container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            background-color: #cad0ca;
+        }
+        .contact-container h2 {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 40px;
+            color: black;
+            font-weight: 600;
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            background-color: #cad0ca;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            width: 100%;
+            max-width: 600px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+            transition: background-color 0.3s, box-shadow 0.3s;
+            text-decoration: none;
+            color: #333;
+        }
+        .contact-item:hover {
+            background-color: #f1f1f1;
+            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+        }
+        .contact-item i {
+            font-size: 24px;
+            color: #4CAF50;
+            margin-right: 15px;
+        }
+        .contact-item span {
+            font-size: 18px;
+        }
+        .address {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            max-width: 600px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            color: #333;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+        }
+        .address i {
+            font-size: 24px;
+            color: #4CAF50;
+            margin-right: 15px;
+        }
+        /* Responsive düzen */
+        @media (max-width: 768px) {
+            .contact-item, .address {
+                flex-direction: column;
+                text-align: center;
+            }
+            .contact-item i, .address i {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Başlık divi -->
+<div class="header">
+    <h1>Get in Touch with Us</h1>
+</div>
+
+<!-- İletişim Bilgileri -->
+<div class="contact-container">
+    <h2>Our Contact Information</h2>
+    
+    <div class="contact-info">
+        <!-- WhatsApp Bağlantısı -->
+        <a href="https://wa.me/905524579551" class="contact-item" target="_blank">
+            <i class="fa fa-whatsapp"></i>
+            <span>WhatsApp: +90 552 457 9551</span>
+        </a>
+
+        <!-- E-posta Bağlantısı -->
+        <a href="mailto:tanissibrahimm34@icloud.com" class="contact-item">
+            <i class="fa fa-envelope"></i>
+            <span>E-posta:tanissibrahimm34@icloud.com </span>
+        </a>
+
+        <!-- Şirket Adresi -->
+        <div class="address">
+            <i class="fa fa-map-marker"></i>
+            <span>
+                Address: Yıldıztepe Mahallesi, 563. Sokak No:14 , 34000, Bağcılar, İstanbul, Türkiye</span>
+        </div>
+    </div>
+</div>
+
+<!-- Font Awesome simgeleri için link (Opsiyonel) -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

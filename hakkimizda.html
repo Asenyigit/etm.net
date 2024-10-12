@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+
+<style>
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: rgb(207, 207, 207);
+    background-image: url('header-bg.jpg'); /* Şirketinize uygun bir arka plan resmi */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.header-content {
+    background: rgba(0, 0, 0, 0.6); /* Arka planda koyu bir katman */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.about-us {
+    background-color: white;
+    padding: 60px 20px;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.text-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.text-container p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.values {
+    background-color: #d6d8db;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.values h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.values-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.value-item {
+    background: white;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    flex: 1 1 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.value-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.value-item p {
+    font-size: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Mobil uyumlu düzen */
+@media (min-width: 768px) {
+    .about-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .text-container {
+        margin-top: 0;
+        flex: 1;
+        text-align: left;
+        padding-left: 40px;
+    }
+
+    .image-container {
+        flex: 1;
+    }
+
+    .values-container {
+        flex-direction: row;
+    }
+}
+
+
+
+
+
+</style>
+
+
+
+
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>Who We Are?</h1>
+            <p>We are a team that makes a difference in the industry with professionalism, innovation, and trust.</p>
+        </div>
+    </header>
+
+    <section class="about-us">
+        <div class="about-container">
+            <div class="image-container">
+                <img src="img/ethemlogo.jpg" alt="Şirket Fotoğrafı">
+            </div>
+            <div class="text-container">
+                <h2>About Us</h2>
+                ETM Group is one of the leading companies in the sector, specializing in international trade and export. The company optimizes trade processes and offers cost-effective solutions by establishing reliable and solid business connections between firms operating in various industries. The primary goal of ETM Group is to meet its clients' needs in the most accurate and reliable way while maintaining the highest quality standards. ETM Group adopts transparency and detailed information sharing as a principle in its services. Before starting service delivery, it provides clients with comprehensive data sheets, equipped with technical details and product information, helping clients make informed decisions. The company embraces an information-based approach at every stage, ensuring a professional experience for its clients.
+
+                ETM Group places great importance on customer satisfaction and aims to offer the best price-quality balance. In this regard, it builds strong relationships with its partners, prioritizing reliability and sustainability in trade processes. With years of experience and industry knowledge, ETM Group has positioned itself as a reliable business partner in the global trade network and plays an active role in international markets.
+                
+                With its innovative approaches and professional team, ETM Group guides its partners at every stage of trade. Through the services it offers, it acts not only as a supplier but also as a strategic partner. Aiming to provide the best solutions at every stage of trade and export processes, ETM Group adopts reliability, transparency, and quality as its core values.
+
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="values">
+        <h2>"Our Values"</h2>
+        <div class="values-container">
+            <div class="value-item">
+                <h3>Innovativeness</h3>
+                <p>
+                    "We aim to be a leader in the industry by constantly generating new solutions and ideas."</p>
+            </div>
+            <div class="value-item">
+                <h3>Trust</h3>
+                <p>
+                    "We provide a transparent and reliable partnership to our customers and business partners."</p>
+            </div>
+            <div class="value-item">
+                <h3>Sustainability</h3>
+                <p>"We develop nature- and community-friendly, sustainable business models."
+
+
+
+
+
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Şirket İsmi. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>

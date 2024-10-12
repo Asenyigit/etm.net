@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog</title>
+    <style>
+        /* Genel sayfa stili */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #b1a7a7; /* Şık gradient arka plan */
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url("yusuf.jpg");
+        }
+        /* İçerik konteyneri */
+        .download-container {
+            background-color: #fff;
+            border-radius: 16px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            padding: 40px;
+            max-width: 700px;
+            width: 100%;
+            text-align: center;
+            margin: 20px;
+        }
+        /* Başlık */
+        .download-container h1 {
+            font-size: 32px;
+            color: black;
+            margin-bottom: 10px;
+        }
+        /* Alt başlık ve açıklama */
+        .download-container p {
+            font-size: 18px;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        /* Katalog indir butonu */
+        .download-button {
+            background-color: #afb0af;
+            color: white;
+            padding: 15px 30px;
+            font-size: 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.3s ease;
+        }
+        .download-button i {
+            margin-right: 10px;
+            font-size: 24px;
+        }
+        /* Hover efekti */
+        .download-button:hover {
+            background-color: #45a049;
+        }
+        /* Ek bilgilendirme ve görsellik */
+        .additional-info {
+            margin-top: 40px;
+        }
+        .additional-info img {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+        .additional-info p {
+            font-size: 16px;
+            color: #333;
+        }
+        /* Responsive düzen */
+        @media (max-width: 768px) {
+            .download-container {
+                padding: 20px;
+            }
+            .download-container h1 {
+                font-size: 28px;
+            }
+            .download-button {
+                padding: 12px 25px;
+                font-size: 18px;
+            }
+            .additional-info img {
+                width: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="download-container">
+    <!-- Sayfa başlığı -->
+    <h1>Download Catalog</h1>
+    <!-- Kısa açıklama -->
+    <p>You can download our latest product catalog by clicking the button below. Discover our newest products and services in the catalog!</p>
+    
+    <!-- Katalog indir butonu -->
+    <a href="etem tiny house 2.pdf.pdf" class="download-button" download>
+        <i class="fa fa-file-pdf"></i> Download Catalog
+    </a>
+    
+    <!-- Ek bilgi ve görsellik -->
+    <div class="additional-info">
+        <!-- Ürün resmi veya ikon -->
+        <img src="img/indir.png" alt="Katalog Görseli">
+        <p>The catalog file is in PDF format and is compatible with all devices. Access our detailed product information.</p>
+    </div>
+</div>
+
+<!-- Font Awesome simgeleri için link (Opsiyonel) -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
